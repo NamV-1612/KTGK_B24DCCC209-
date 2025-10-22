@@ -1,5 +1,6 @@
-import React, { createContext, useEffect, useState, ReactNode } from 'react';
-import { Post } from './types';
+import { createContext, useEffect, useState } from 'react';
+import type { ReactNode } from 'react';
+import type { Post } from './types';
 
 type NewPost = Omit<Post, 'id' | 'date'>;
 

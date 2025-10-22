@@ -1,8 +1,8 @@
-import React, { useContext } from 'react';
+import { useContext } from 'react';
 import { useNavigate } from 'react-router-dom';
 import PostForm from '../components/PostForm';
 import { PostContext } from '../PostContext';
-import { Post } from '../types';
+import type { Post } from '../types';
 
 const CreatePost = () => {
   const postContext = useContext(PostContext);

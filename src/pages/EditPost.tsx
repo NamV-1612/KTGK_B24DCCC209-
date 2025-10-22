@@ -1,8 +1,8 @@
-import React, { useContext } from 'react';
+import { useContext } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import { PostContext } from '../PostContext';
 import PostForm from '../components/PostForm';
-import { Post } from '../types';
+import type { Post } from '../types';
 
 const EditPost = () => {
   const { id } = useParams();

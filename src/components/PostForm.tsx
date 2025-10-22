@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import { Post, Category } from '../types';
+import { useState } from 'react';
+import type { Post, Category } from '../types';
 
 interface Props {
   initialData?: Omit<Post, 'id' | 'date'>;
@@ -81,4 +81,3 @@ const PostForm: React.FC<Props> = ({ initialData, onSubmit, onCancel, submitText
 };
 
 export default PostForm;
-

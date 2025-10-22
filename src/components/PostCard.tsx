@@ -1,5 +1,5 @@
 import React from 'react';
-import { Post } from '../types';
+import type { Post } from '../types';
 import { useNavigate } from 'react-router-dom';
 
 interface Props {
